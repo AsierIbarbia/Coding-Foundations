@@ -1,0 +1,93 @@
+.header-wrapper {
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+/* Left Column */
+
+.header-wrapper > .left-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-wrapper > .left-column > .banner-image {
+    display: flex;
+    justify-content: center;
+}
+
+.header-wrapper > .left-column > .banner-image img {
+    width: 170px;
+    height: 100%;
+}
+
+.header-wrapper > .left-column > .links-wrapper {
+    display: flex;
+    flex-direction: column;
+    color: yellow;
+    padding: 20px;
+}
+
+.header-wrapper > .left-column > .links-wrapper > .links {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-wrapper > .left-column > .links-wrapper > .links > .nav-link a {
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.header-wrapper > .left-column > .links-wrapper > .links > .spark-link a {
+    color: #888888;
+    text-decoration: none;
+    font-weight: 800;
+    margin-left: 10px;
+}
+
+/* Right Column */
+
+.header-wrapper > .right-column {
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header-wrapper > .right-column > .functions-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    grid-gap: 20px;
+}
+
+.header-wrapper > .right-column > .functions-wrapper a {
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.header-wrapper > .right-column > .functions-wrapper > .function-link {
+    background-color: #424949;
+    color: white;
+    font-size: 1.25em;
+    padding: 10px 25px;
+    border: 1px solid #424949;
+    border-radius: 2px;
+    outline: none;
+}
+
+.header-wrapper > .right-column > .functions-wrapper > .function-link i {
+    color: #82e0aa;
+}
+
+.header-wrapper > .right-column > .functions-wrapper > .search-icon i {
+    font-size: 2em;
+    color: #626567;
+}

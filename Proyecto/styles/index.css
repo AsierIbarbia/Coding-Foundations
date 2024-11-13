@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+}
+
+.page-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-gap: 10px;
+    background: #212f3c;
+    box-shadow: inset -200px -200px 103px 91px rgba(0,0,0,0.55);
+}
+
+/* Left Column */
+
+.page-container > .left-column {
+    padding: 80px 50px;
+}
+
+.page-container > .left-column > .body-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.page-container > .left-column > .body-text > .paragraph-top {
+    font-weight: 300;
+    color: white;
+    font-size: 2.9em;
+}
+
+.page-container > .left-column > .body-text > .paragraph-top > .bold-text {
+    font-weight: 900;
+}
+
+.page-container > .left-column > .body-text > .paragraph-bottom {
+    margin-top: 40px;
+    font-weight: 300;
+    color:#b2babb;
+    font-size: 2.5em;
+}
+
+.page-container > .left-column > .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    grid-gap: 20px;
+    padding: 20px 40px 50px 30px;
+    margin-top: 60px;
+}
+
+.page-container > .left-column > .buttons > .signup-button a {
+    text-decoration: none;
+    color: black;
+}
+
+.page-container > .left-column > .buttons > .signup-button {
+    background-color: #28b463;
+    color: black;
+    font-size: 2em;
+    padding: 10px 25px;
+    border: 1px solid #28b463;
+    border-radius: 3px;
+    outline: none;
+    box-shadow: 11px 0px 40px 12px rgba(0,0,0,0.10);
+}
+
+.page-container > .left-column > .buttons > .learnmore-button a {
+    text-decoration: none;
+    color: white;
+}
+
+.page-container > .left-column > .buttons > .learnmore-button {
+    background-color: black;
+    color: white;
+    font-size: 1.8em;
+    padding: 10px 25px;
+    border: 1px solid black;
+    border-radius: 3px;
+    outline: none;
+    box-shadow: 11px 0px 40px 12px rgba(0,0,0,0.10);
+}
+
+/* Right Column */
+
+.page-container > .right-column {
+    padding-top: 80px
+}
+
+.page-container > .right-column h1 {
+    margin-bottom: 0px;
+    color: white;
+}
+
+.page-container > .right-column > h1 .blue-text {
+    color: #00aaff;
+}
+
+.page-container > .right-column > .body-image {
+    display: flex;
+    align-items: right;
+}
+
+.page-container > .right-column > .body-image img {
+    width: 600px;
+    height: 100%;
+}
